@@ -15,14 +15,22 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%20%EA%B8%B0%EC%B4%88%20%EB%AA%A8%EB%8D%B8.md#-%EC%9E%A5%EA%B3%A0-%EB%AA%A8%EB%8D%B8%EC%9D%B4-%EB%AD%90%EC%9E%84-">모델에 대해서 알아보자</a>
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/%EC%9E%A5%EA%B3%A0%20%EA%B4%80%EB%A6%AC%EC%9E%90.md#-%EC%9E%A5%EA%B3%A0-%EA%B4%80%EB%A6%AC%EC%9E%90">장고 관리자</a>
 
-## 🌳 Django에 대해서 알아보자❗️
+## 🔦 Django에 대해서 알아보자❗️
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/Django%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B5%AC%EC%A1%B0.md#1-%EC%84%9C%EB%A1%A0">Django 프로젝트 구조</a>
+- <a href="">Django 프로젝트 설정</a>
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/%EC%9E%A5%EA%B3%A0%20MVT%20%ED%8C%A8%ED%84%B4.md#-django%EC%9D%98-mvt-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90">Django의 MVT 디자인 패턴</a>
+
+## 📡 Django Rest Framework
 
 ## 💻 Practice
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Tutorial/pybo">💬 Django Tutorial [pybo : 간단한 투표 기능]</a>
-- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Tutorial/pybo">💬 Django Tutorial [Web crawling : 웹 크롤링 기능]</a>
+- <a href="">💬 Django Tutorial [노마드 코더 에어비앤비 클론코딩] </a>
+- <a href="">💬 Django Tutorial 마지막 [게시판 만들기]</a>
+
+- <a href="">Django rest Framework [pinterest]</a>
 
 ## 🖥️ Project
+
+- <a href=""></a>
