@@ -23,14 +23,13 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 
 ## 📡 Django Rest Framework
 
-## 💻 Practice
+- <a href="">Serializer</a>
+
+## 💻 Lecture
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Tutorial/pybo">💬 Django Tutorial [pybo : 간단한 투표 기능]</a>
-- <a href="">💬 Django Tutorial [노마드 코더 에어비앤비 클론코딩] </a>
-- <a href="">💬 Django Tutorial 마지막 [게시판 만들기]</a>
-
-- <a href="">Django rest Framework [pinterest]</a>
+- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Practice/Part%201#1-%EC%84%9C%EB%A1%A0">Django 프레임워크 입문 Part 1</a>
 
 ## 🖥️ Project
 
-- <a href=""></a>
+- <a href="https://github.com/Go-Socket-Project">🖥️ Django로 채팅 서비스 구축</a>
