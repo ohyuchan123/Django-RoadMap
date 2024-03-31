@@ -18,18 +18,20 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 ## 🔦 Django에 대해서 알아보자❗️
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/Django%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B5%AC%EC%A1%B0.md#1-%EC%84%9C%EB%A1%A0">Django 프로젝트 구조</a>
-- <a href="">Django 프로젝트 설정</a>
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/%EC%9E%A5%EA%B3%A0%20MVT%20%ED%8C%A8%ED%84%B4.md#-django%EC%9D%98-mvt-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90">Django의 MVT 디자인 패턴</a>
+- <a href="">settings 와 requirements 파일</a>
+- <a href="">Django Model 이용하기</a>
+- <a href="">Django form의 기초</a>
+- <a href="">Project 와 URL</a>
 
 ## 📡 Django Rest Framework
 
 - <a href="">Serializer</a>
 
-## 💻 Lecture
+## 💻 Project
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Tutorial/pybo">💬 Django Tutorial [pybo : 간단한 투표 기능]</a>
-- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Practice/Part%201#1-%EC%84%9C%EB%A1%A0">Django 프레임워크 입문 Part 1</a>
-
-## 🖥️ Project
-
-- <a href="https://github.com/Go-Socket-Project">🖥️ Django로 채팅 서비스 구축</a>
+- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Practice/Part%201#1-%EC%84%9C%EB%A1%A0">💬 Django 프레임워크 입문 Part .1 CRUD</a>
+- <a href="">💬 나의 로망 Part .2 배달앱 서비스</a>
+- <a href="https://github.com/Go-Socket-Project">💬 Part .3 Django로 채팅 서비스</a>
+- <a href="">💬 Part .4 결제 서비스 연동</a>
