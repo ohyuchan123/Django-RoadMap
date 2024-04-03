@@ -6,6 +6,11 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 이 곳은 Django에 대해서 공부한 모든 것을 작성하고 있습니다. 다만 이곳에 작성된 파일들은 대부분 이론적으로 작성되어 있습니다.  
 일종의 유저 가이드, 나만의 책 느낌으로 작성한 곳 입니다.
 
+## ❗️ 주의 꼭 확인해주세요
+
+실습 과정을 담은 내용을 제외하면 Django의 MVT 디자인 패턴 이후의 글들은 전부 노션에 작성되고 있습니다.  
+포트폴리오의 틀이 잡히면서 github에 계속 해서 글을 쓰는 방향은 아닌 것 같아 현재는 Notion에 작성하고 있습니다.
+
 ## 🌱 Django의 기초
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%9D%98%20%EA%B8%B0%EC%B4%88/django%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20%EC%86%8C%EA%B0%9C.md#-%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EB%A7%90">django에 대해서 알아보고 django를 설치 해보자</a>
@@ -20,18 +25,22 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/Django%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B5%AC%EC%A1%B0.md#1-%EC%84%9C%EB%A1%A0">Django 프로젝트 구조</a>
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90!/%EC%9E%A5%EA%B3%A0%20MVT%20%ED%8C%A8%ED%84%B4.md#-django%EC%9D%98-mvt-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90">Django의 MVT 디자인 패턴</a>
 - <a href="">settings 와 requirements 파일</a>
-- <a href="">Django Model 이용하기</a>
+- <a href="https://www.notion.so/yuchan-log/Django-Model-d173735fa4614a68b465f0dc05510b52?pvs=4#2e1d30eee3484f388188e1fa4aef15bc">Django에서 Model 이용하기</a>
 - <a href="">Django form의 기초</a>
 - <a href="">Project 와 URL</a>
 
+## 🗄️ Django의 Template 개념
+
+- <a href=""></a>
+
 ## 📡 Django Rest Framework
 
-- <a href="">Serializer</a>
+- <a href="">Serializer 파해치기</a>
 
 ## 💻 Project
 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Tutorial/pybo">💬 Django Tutorial [pybo : 간단한 투표 기능]</a>
-- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Practice/Part%201#1-%EC%84%9C%EB%A1%A0">💬 Django 프레임워크 입문 Part .1 CRUD</a>
+- <a href="https://github.com/ohyuchan123/Django-RoadMap/tree/master/Django%20Practice/Part%201#1-%EC%84%9C%EB%A1%A0">💬 Django 게시판에서 배포까지</a>
 - <a href="">💬 나의 로망 Part .2 배달앱 서비스</a>
 - <a href="https://github.com/Go-Socket-Project">💬 Part .3 Django로 채팅 서비스</a>
 - <a href="">💬 Part .4 결제 서비스 연동</a>
