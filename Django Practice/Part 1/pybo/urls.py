@@ -14,4 +14,5 @@ app_name = 'pybo' # -> 주의 할 점 네임스페이스를 추가했기 때문�
 urlpatterns = [
     path('',views.index, name='index'),
     path('<int:question_id>/',views.detail, name='detail'),
+    path('answer/create/<int:question_id>',views.answer_create, name='answer_create'),
 ]
