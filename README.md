@@ -39,6 +39,16 @@ MVT(Model-Template-View) 아키텍처 기반으로 하며, 이를 통해 빠른 
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B3%BC%20%EA%B6%8C%ED%95%9C/%EC%9E%A5%EA%B3%A0%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%84%EB%8B%A8%ED%9E%88%20%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0.md#1-%EC%84%9C%EB%A1%A0">장고 관리자 페이지 간단히 사용해보기</a>
 - <a href="https://github.com/ohyuchan123/Django-RoadMap/blob/master/%EC%9E%A5%EA%B3%A0%EC%9D%98%20%EC%9D%B8%EC%A6%9D%EA%B3%BC%20%EA%B6%8C%ED%95%9C/%EC%9E%A5%EA%B3%A0%20%EA%B4%80%EB%A6%AC%EC%9E%90%20%EA%B3%84%EC%A0%95%EC%9D%84%20%EC%9E%8A%EC%96%B4%EB%B2%84%EB%A0%B8%EC%9D%84%EB%95%8C%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%8C%80%EC%B2%98%ED%95%B4%EC%95%BC%20%EB%90%98%EB%8A%94%EA%B0%80.md#1-%EC%84%9C%EB%A1%A0">장고 관리자 계정을 잊어버렸을때 어떻게 대처해야 되는가</a>
 
+## 😡 장고에 대해서 더 하드하게 알아보자
+
+- <a href="">장고 generic view는 어떤 기능을 하는가</a>
+- <a href="">CSRF란 무엇인가</a>
+
+## 🍪 cookiecutter-django
+
+- <a href="https://www.notion.so/yuchan-log/4054c8a61f4f4dd2a58b8591fb1a713e?pvs=4#175aaab9ed26461d90e66862ab0a9117">쿠키커터란 무엇인가?</a>
+- <a href="">나만의 쿠키커터?</a>
+
 ## 📡 Django Rest Framework
 
 - <a href="">Serializer 파해치기</a>
