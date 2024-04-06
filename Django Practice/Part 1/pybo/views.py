@@ -6,13 +6,19 @@ from django.http import HttpResponseNotAllowed
 from .models import Question
 from .forms import QuestionForm,AnswerForm
 
+from django.core.paginator import Paginator # 장고 페이징을 위해서 사용하는 클래스는 Paginator입니다.
+
 # Create your views here.
 def index(request):
+    page = request.GET.get('page', '1')  # 페이지
     question_list = Question.objects.order_by('-create_date')
     # 질문 목록 데이터는 Question.objects.order_by('-create_date')로 얻을 수 있습니다.
     # order_by는 조회 결과를 정렬하는 함수입니다.
-    context = {'question_list' : question_list}
-    return render(request, 'pybo/question_list.html',context)
+    paginator = Paginator(question_list, 10)  # 페이지당 10개씩 보여주기
+    page_obj = paginator.get_page(page)
+    context = {'question_list': page_obj}  # question_list는 페이징 객체(page_obj)
+    return render(request, 'pybo/question_list.html', context)
+
 
 def detail(request,question_id):
     question = get_object_or_404(Question, pk=question_id)
