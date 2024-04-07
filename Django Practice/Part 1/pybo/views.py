@@ -10,16 +10,29 @@ from django.core.paginator import Paginator # 장고 페이징을 위해서 사�
 from django.contrib.auth.decorators import login_required
 
 from django.contrib import messages
+from django.db.models import Q
 
 # Create your views here.
 def index(request):
     page = request.GET.get('page', '1')  # 페이지
+    kw = request.GET.get('kw', '')  # 검색어
+
     question_list = Question.objects.order_by('-create_date')
     # 질문 목록 데이터는 Question.objects.order_by('-create_date')로 얻을 수 있습니다.
     # order_by는 조회 결과를 정렬하는 함수입니다.
+
+    if kw:
+        question_list = question_list.filter(
+            Q(subject__icontains=kw) |  # 제목 검색
+            Q(content__icontains=kw) |  # 내용 검색
+            Q(answer__content__icontains=kw) |  # 답변 내용 검색
+            Q(author__username__icontains=kw) |  # 질문 글쓴이 검색
+            Q(answer__author__username__icontains=kw)  # 답변 글쓴이 검색
+        ).distinct()
+    
     paginator = Paginator(question_list, 10)  # 페이지당 10개씩 보여주기
     page_obj = paginator.get_page(page)
-    context = {'question_list': page_obj}  # question_list는 페이징 객체(page_obj)
+    context = {'question_list': page_obj, 'page': page, 'kw': kw}  # question_list는 페이징 객체(page_obj)
     return render(request, 'pybo/question_list.html', context)
 
 
