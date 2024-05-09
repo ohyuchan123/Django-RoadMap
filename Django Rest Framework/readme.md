@@ -18,3 +18,4 @@ Application Programming Interface의 줄임말로서 **요청과 응답**을 사
 또 HTTP 메소드(GET, POST, PUT, DELETE 등)를 사용하여 리소스에 대한 액션을 정의한다.
 
 ## 3. 이제 본격적으로 DRF를 사용해보는 실습을 가져보도록 하겠다.
+- <a href="">직렬화</a>
